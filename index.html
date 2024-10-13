@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+     <h1>plus minus problem</h1>
+     <div>
+        <p>
+            <b>please enter a number (seperated with ",") :</b><br>
+            <input id="numbers" type="text" placeholder="1,2,-1,-2,0"><br>
+            <select id="ratioOpt">
+                <option value="pourcentage">show pourcentage %</option>
+                <option value="decimal">show decimal</option>
+            </select><br>
+            
+            <button onclick="clicked()" id="submit">submit</button>
+        </p>
+        <p>
+            <b>Positive ratio :</b>
+            <input id="posRatioInfo" type="text" readonly >
+        </p>
+        <p>
+            <b>Negative ratio :</b>
+            <input id="negRatioInfo" type="text" readonly >
+        </p>
+        <p>
+            <b>Null ratio :</b>
+            <input id="nullRatioInfo" type="text" readonly >
+        </p>
+     </div>
+    <script src="app.js"></script>
+</body>
+</html>
